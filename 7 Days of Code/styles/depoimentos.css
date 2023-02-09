@@ -1,0 +1,57 @@
+.depoimentos {
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 0 7rem;
+}
+
+.depoimentos__marcador {
+    text-align: center;
+    color: var(--cor-fonte-terciaria);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.depoimentos__titulo {
+    text-align: center;
+    color: var(--cor-fonte-secundaria);
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin: 1rem 0 2rem 0;
+}
+
+.depoimentos__foto {
+    align-self: center;
+    width: 56px;
+}
+
+.depoimentos__nome {
+    text-align: center;
+    font-weight: 500;
+    color: var(--cor-fonte-secundaria);
+}
+
+.depoimentos__cargo {
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 720px){
+    .depoimentos {
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .depoimentos {
+        margin: 0 5px;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .depoimentos__titulo {
+        font-size: 1.5rem;
+    }
+}

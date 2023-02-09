@@ -1,0 +1,70 @@
+.banner {
+    margin: 0 7rem;
+}
+
+.banner__talentos {
+    padding: 6rem 0 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner__talentos__bagde {
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    padding: 6px 12px;
+    color: var(--cor-fonte-terciaria);
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.banner__talentos__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--cor-fonte-secundaria);
+}
+
+.banner__talentos__texto {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.banner__img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+    .banner {
+        margin: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .banner {
+        margin: 0 1rem;
+    }
+
+    .banner__talentos {
+        padding: 3rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .banner {
+        margin: 0 5px;
+    }
+
+    .banner__talentos {
+        padding: 10px 0 0 0;
+    }
+
+    .banner__talentos__titulo {
+        font-size: 1.75rem;
+    }
+
+    .banner__talentos__texto {
+        margin-bottom: 10px;
+    }
+}

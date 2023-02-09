@@ -1,0 +1,48 @@
+.vagas {
+    margin: 0 22% 6rem 22%;
+}
+
+.vagas__area__nome {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cor-fonte-secundaria);
+    padding: 4rem 0 2rem 0;
+}
+
+.profissao {
+    box-sizing: border-box;
+    width: 100%;
+    height: 136px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.vagas__cargo__titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cor-fonte-secundaria);
+    margin-bottom: 3rem;
+}
+
+.vagas__cargo__periodo,
+.vagas__cargo__faixa-salarial {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 720px){
+    .vagas {
+        margin: 0 10% 3rem 10%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .vagas {
+        margin: 0 5% 2rem 5%;
+    }
+
+    .vagas__area__nome {
+        padding: 4rem 0 2rem 0;
+    }
+}

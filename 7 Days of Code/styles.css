@@ -1,0 +1,29 @@
+@import url("styles/nav.css");
+@import url("styles/cabecalho.css");
+@import url("styles/metricas.css");
+@import url("styles/banner.css");
+@import url("styles/vagas.css");
+@import url("styles/depoimentos.css");
+@import url("styles/rodape.css");
+
+:root {
+    --bg-primaria: #FFFFFF;
+    --bg-secundaria: #8E2424;
+    --bg-terciaria: #F9FAFB;
+    --fonte-principal: "Inter", sans-serif;
+    --cor-fonte-primaria: #667085;
+    --cor-fonte-secundaria: #101828;
+    --cor-fonte-terciaria:  #8E2424;
+    --cor-fonte-quartenaria: #98A2B3;
+    --cor-fonte-quinaria: #FFFFFF;
+    --cor-fonte-sextenaria: #3A404E;
+}
+
+body {
+    background-color: var(--bg-primaria);
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100vw;
+}

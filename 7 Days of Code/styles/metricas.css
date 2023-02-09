@@ -1,0 +1,76 @@
+.metricas {
+    display: flex;
+    gap: 0 5rem;
+    margin: 0 7rem;
+}
+
+.metricas__itens {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/4);
+}
+
+.metricas__itens__numeros {
+    color: var(--cor-fonte-terciaria);
+    font-weight: 600;
+    font-size: 3.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.metricas__itens__titulo  {
+    color: var(--cor-fonte-secundaria);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.metricas__itens__texto {
+    padding: .5rem 0 6rem 0;
+}
+
+@media screen and (max-width: 1000px){
+    .metricas  {
+        margin: 0 2rem;
+        flex-wrap: wrap;
+        gap: 0 1rem;
+        justify-content: center;
+    }
+
+    .metricas__itens {
+        width: calc((100%/4) - 2rem);
+    }
+}
+
+@media screen and (max-width: 720px){
+    .metricas {
+        margin: 0 1rem;
+        gap: 0 0.5rem;
+    }
+
+    .metricas__itens__numeros {
+        font-size: 3.25rem;
+    }
+
+    .metricas__itens__texto {
+        padding: .5rem 0 3rem 0;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .metricas {
+        margin: 0 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .metricas__itens {
+        width: 80vw;
+    }
+
+    .metricas__itens__numeros {
+        font-size: 2.25rem;
+    }
+
+    .metricas__itens__texto {
+        padding: .5rem 0 1.5rem 0;
+    }
+}
